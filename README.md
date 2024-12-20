@@ -5,7 +5,7 @@ Project Category: Advanced
 ![Spotify Logo](https://github.com/sanmyyung/spotify/blob/main/spotify_logo.jpg)
 
 ## Overview
-This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
+This project focuses on analyzing a Spotify dataset containing detailed information about tracks, albums, and artists through advanced SQL techniques. It involves the complete workflow of normalizing a denormalized dataset, executing SQL queries ranging from basic to advanced complexity, and optimizing query performance. The main objectives are to enhance proficiency in advanced SQL, derive meaningful insights from the data, and apply best practices for efficient database management and querying.
 
 ```sql
 -- create table
@@ -40,11 +40,11 @@ CREATE TABLE spotify (
 ## Project Steps
 
 ### 1. Data Exploration
-Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
-- `Artist`: The performer of the track.
-- `Track`: The name of the song.
+Before starting with SQL analysis, gaining a thorough understanding of the dataset is crucial. This Spotify dataset includes key attributes such as:
+- `Artist`:  The performer or creator of the track.
+- `Track`: The title or name of the song.
 - `Album`: The album to which the track belongs.
-- `Album_type`: The type of album (e.g., single or album).
+- `Album_type`: Specifies the type of album, such as a single or an album.
 - Various metrics such as `danceability`, `energy`, `loudness`, `tempo`, and more.
 
 ### 4. Querying the Data
